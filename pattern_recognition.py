@@ -24,7 +24,6 @@ x = np.array(x_acc)
 y = np.array(y_acc)
 z = np.array(z_acc)
 
-//ask about convolve function 
 x = np.convolve(x_acc, np.ones(5)/5, mode='same')
 y = np.convolve(y_acc, np.ones(5)/5, mode='same')
 z = np.convolve(z_acc, np.ones(5)/5, mode='same')
